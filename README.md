@@ -111,8 +111,8 @@ Fonts, colors (the title can take its category's color), progress bars, panel wi
 
 ## Development
 
-- `Tools/` holds scripts that are not part of the addon: the tale checker, a questline lookup, and the icon generator. See [Tools/README.md](Tools/README.md). The packaged addon leaves it out (`.pkgmeta`).
-- `notshipped/` is for working files that stay out of the packaged addon.
+- `Tools/` holds scripts that are not part of the addon: the tale checker and a questline lookup. See [Tools/README.md](Tools/README.md). The packaged addon leaves it out (`.pkgmeta`).
+- `notshipped/` is for working files that stay out of the packaged addon, such as the high-res logo. `notshipped/make_icon.py` makes the in-game icon (`Icons/logo.tga`) from it.
 - The built-in tales are built by generators in a separate private repository, because they use a copy of BtWQuests' data.
 
 ## License

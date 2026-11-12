@@ -3,7 +3,7 @@
 ## Notes: Replaces the quest tracker with a single focused quest and a tray of your other tracked quests.
 ## Author: Psyny
 ## Version: 0.1.0
-## IconTexture: Interface\AddOns\MissionFocus\Icons\icon
+## IconTexture: Interface\AddOns\MissionFocus\Icons\logo
 ## DefaultState: enabled
 
 ## SavedVariables: MissionFocusDB
