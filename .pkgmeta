@@ -1,0 +1,7 @@
+package-as: MissionFocus
+
+# Files kept in the repository but left out of the packaged addon
+# (BigWigs packager / CurseForge / Wago).
+ignore:
+  - Tools
+  - notshipped

@@ -1,0 +1,18 @@
+{
+    "runtime.version": "Lua 5.1",
+    "workspace.ignoreDir": ["Libs"],
+    "diagnostics.disable": ["inject-field", "need-check-nil", "undefined-field", "redefined-local"],
+    "diagnostics.globals": [
+        "LibStub", "Enum", "C_QuestLog", "C_QuestInfoSystem", "C_SuperTrack", "C_Timer",
+        "CreateFrame", "UIParent", "GameTooltip", "InCombatLockdown", "IsInInstance", "IsShiftKeyDown",
+        "hooksecurefunc", "STANDARD_TEXT_FONT", "CooldownFrame_Set", "strtrim", "unpack",
+        "ObjectiveTrackerFrame", "GetQuestLogSpecialItemInfo", "GetQuestLogSpecialItemCooldown",
+        "IsQuestLogSpecialItemInRange", "GetQuestProgressBarPercent", "GetQuestLogCompletionText",
+        "QuestMapFrame_OpenToQuestDetails", "ToggleQuestLog",
+        "MissionFocus", "MissionFocus_Utils", "MissionFocus_Options", "MissionFocus_Quests",
+        "MissionFocus_BlizzardTracker", "MissionFocus_Background", "MissionFocus_Location", "MissionFocus_History", "MissionFocus_Log", "StaticPopupDialogs", "StaticPopup_Show", "YES", "NO", "UISpecialFrames", "tinsert", "date", "time", "GetTime", "UnitName", "QuestFrameNpcNameText", "BreakUpLargeNumbers", "C_Map", "C_TaskQuest", "GetQuestUiMapID", "MissionFocus_ItemButton", "MissionFocus_UI",
+        "MissionFocus_Actions", "MissionFocus_Action",
+        "BINDING_HEADER_MISSIONFOCUS", "BINDING_NAME_MISSIONFOCUS_ACTION1",
+        "BINDING_NAME_MISSIONFOCUS_ACTION2", "BINDING_NAME_MISSIONFOCUS_ACTION3", "select"
+    ]
+}

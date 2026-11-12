@@ -1,0 +1,56 @@
+## Interface: 120000, 120001, 120100
+## Title: MissionFocus
+## Notes: Replaces the quest tracker with a single focused quest and a tray of your other tracked quests.
+## Author: Psyny
+## Version: 0.1.0
+## IconTexture: Interface\AddOns\MissionFocus\Icons\icon
+## DefaultState: enabled
+
+## SavedVariables: MissionFocusDB
+## OptionalDeps: BtWQuests
+
+# Library files
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\LibSharedMedia-3.0\lib.xml
+Libs\AceGUI-3.0-SharedMediaWidgets\widget.xml
+#@end-no-lib-strip@
+
+# Locale files
+Locales\Locale-enUS.lua
+
+# Main Files
+MissionFocus_Utils.lua
+MissionFocus_Actions.lua
+MissionFocus_Options.lua
+MissionFocus_Modes.lua
+MissionFocus_Quests.lua
+MissionFocus_Location.lua
+MissionFocus_Soft.lua
+MissionFocus_History.lua
+MissionFocus_BlizzardTracker.lua
+MissionFocus_Background.lua
+MissionFocus_ItemButton.lua
+MissionFocus_UI.lua
+MissionFocus_BtWQuests.lua
+MissionFocus_Questlines.lua
+MissionFocus_QuestlineGraph.lua
+MissionFocus_QuestlinesUI.lua
+MissionFocus_JSON.lua
+MissionFocus_Tales.lua
+MissionFocus_TalesEditor.lua
+MissionFocus_TalesUI.lua
+MissionFocus_Log.lua
+MissionFocus.lua
+
+# Built-in tales (Tales tab > Core Tales), one file each
+default_tales\TrollTale.lua

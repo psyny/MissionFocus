@@ -1,0 +1,13 @@
+<Bindings>
+	<Binding name="MISSIONFOCUS_ACTION1" header="MISSIONFOCUS" runOnUp="true" category="ADDONS">
+		MissionFocus_Action(1, keystate)
+	</Binding>
+	<Binding name="MISSIONFOCUS_ACTION2" runOnUp="true" category="ADDONS">
+		MissionFocus_Action(2, keystate)
+	</Binding>
+	<Binding name="MISSIONFOCUS_ACTION3" runOnUp="true" category="ADDONS">
+		MissionFocus_Action(3, keystate)
+	</Binding>
+	<Binding name="CLICK MissionFocusItemButton:LeftButton" category="ADDONS">
+	</Binding>
+</Bindings>

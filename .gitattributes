@@ -1,0 +1,10 @@
+# Files kept in the repository but left out of release archives
+# (GitHub release "Source code" zips and `git archive`).
+Tools/ export-ignore
+notshipped/ export-ignore
+.gitattributes export-ignore
+.pkgmeta export-ignore
+.gitignore export-ignore
+
+# Images: never touch line endings
+*.tga binary
